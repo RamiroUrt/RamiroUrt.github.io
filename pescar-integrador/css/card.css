@@ -1,0 +1,99 @@
+/*inicio estilos cards home - by Ayleen C*/
+.containerBody{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tituloCard{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    padding-top: 1rem;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(21, 51, 77, 0.493);
+}
+
+.containerCard{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    background-color: rgba(21, 51, 77, 0.493);
+    justify-content: center;
+    align-items:center;
+}
+
+.card { 
+    width: 100%;
+    margin:20px;
+    border-radius: 6px;
+    overflow:hidden;
+    background-color: #012A4A;
+    box-shadow: 0px 1px 10px rgba(0,0,0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px #89C2D9;
+    transform: translateY(-3%);
+}
+
+.card img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+}
+
+.card .contenido a{
+    text-align: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgba(21, 51, 77, 0.493);
+    color: white;
+    border: 1px solid  rgba(21, 51, 77, 0.493);
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.card .contenido a:hover{
+    background: #61A5C2;
+    color:#fff;
+}
+
+/*media card*/
+@media screen and (max-width: 768px){
+    .containerCard{
+        flex-direction: column;
+    }
+    .card{
+        width: 90%;
+    }
+}
+
+/*boton de card*/
+.cardBoton{
+    background-color: rgba(21, 51, 77, 0.493);
+    width: 100%;
+    max-width: 1100px;
+    padding-bottom: 1rem;
+}
+
+.cardBoton button {
+    background-color:  rgba(21, 51, 77, 0.493);
+    border-color: rgba(21, 51, 77, 0.493);
+}
+/*fin estilos cards home - by Ayleen C*/

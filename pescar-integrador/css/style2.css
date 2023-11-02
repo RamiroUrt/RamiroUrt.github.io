@@ -1,0 +1,14 @@
+body{
+    background-color: #111111;
+}
+
+.card{
+    background-color: #111111;
+}
+
+.card-body{
+    background-color: rgba(21, 51, 77, 0.7);
+}
+.card-title, .card-text{
+    color: white;
+ }

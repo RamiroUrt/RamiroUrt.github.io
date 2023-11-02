@@ -1,0 +1,79 @@
+/* .navbar-nav .nav-link {
+    transition: background-color 0.3s ease;
+}
+
+/* Cambia el color de fondo en hover */
+.navbar-nav .nav-link:hover {
+    background-color: rgba(21, 51, 77, 0.7); /* Cambia el color de fondo al hacer hover */
+    border-radius: 4px; /* Agrega un borde redondeado para suavizar el efecto */
+    color: white; /* Cambia el color del texto en hover para que sea visible */
+} */
+
+body{
+    background-color: #111111;
+    box-sizing: border-box;
+}
+/*body y container ocupen el 50% del viewport height */
+body,
+.container {
+    min-height: 50vh;
+}
+
+/*imágenes se adapten al contenedor */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.seccion-carrusel{ /*cambiar para que sea responsive*/
+    margin: 50px auto;
+}
+
+.container{
+    background-color: rgba(21, 51, 77, 0.493);
+    padding: 0;
+}
+
+.primer-columna{
+    height: 100%;
+    /*background-color: rgba(21, 51, 77, 0.493);*/
+    padding: 30px;
+}
+h3, h2{
+    color: white;
+}
+p{
+    color: white;
+    margin:30px 0;
+    text-align: justify;
+    font-size: 18px;
+}
+
+/*BOTONES*/
+/* CSS personalizado para ajustar el ancho y el alto de los botones */
+.btn-custom-width-height {
+    padding: 8px 30px; 
+    width: 150px;
+    height: auto;
+    font-size: 16px;
+    line-height: 1; /* Elimina el espacio extra entre líneas */
+    margin-top: 20px;
+}
+
+/*GALERIA*/ 
+#galeria-destacados {
+    margin-bottom: 50px; /* Puedes ajustar el valor según tus preferencias */
+    padding-bottom: 40px;
+}
+#galeria-destacados .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+}
+#galeria-destacados img{
+    width: 100%;
+    height: 200px;
+}
+ 
+#galeria-destacados img:hover{
+    border: 5px solid #f7f7f7;
+}

@@ -1,0 +1,128 @@
+[
+    {
+        "id" : 1,
+        "nombre": "Prótesis de mano",
+        "descripcion": "Prótesis de mano. Este prototipo forma parte del proyecto de control de prótesis robóticas mediante un sensor mioeléctrico, pero también se pueden utilizar otros sensores.",
+        "imagenes": [
+            "img/imgProducto/img1.jpg",
+            "img/imgProducto/img2.jpg",
+            "img/imgProducto/img3.jpg",
+            "img/imgProducto/img4.jpg"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 765425",
+            "Fecha de publicación: 2022-06-25 23:34",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s"
+        ], 
+        "comentarios": []
+       
+    },
+    {
+        "id": 2,
+        "nombre": "Prótesis de Pierna",
+        "descripcion": "Una prótesis robótica didáctica, diseñada para estudiantes y entusiastas de la robótica.",
+        "imagenes": [
+            "img/imgProducto/img5.jpg",
+            "img/imgProducto/img7.jpg",
+            "img/imgProducto/img11.jpg",
+            "img/imgProducto/img6.jpg"
+        ],
+        "caracteristicas": [
+            "Densidad de relleno: 20%",
+            "Temperatura de material: Según lo indique el PLA",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s",
+            "Tipo de adherencia a la placa: Borde"
+        ],
+        "comentarios": [
+            {
+                "usuario": "Usuario 1",
+                "calificacion": 4,
+                "fecha": "01/10/2023",
+                "comentario": "Soy estudiante y esta prótesis es genial para aprender. La imprimí a buena velocidad y quedó perfecta."
+            },
+            {
+                "usuario": "Usuario 2",
+                "calificacion": 3,
+                "fecha": "02/10/2023",
+                "comentario": "Un amigo está encantado con su nueva pierna impresa. Diseño preciso y fácil ensamblaje. Recomendado al 100%."
+            },
+            {
+                "usuario": "Usuario 3",
+                "calificacion": 5,
+                "fecha": "03/10/2023",
+                "comentario": "Perfecto para principiantes. Las instrucciones son sencillas, incluso para novatos como yo. Ideal para quienes comienzan en robótica. ¡Totalmente recomendado!"
+            },
+            {
+                "usuario": "Usuario 4",
+                "calificacion": 4,
+                "fecha": "20/10/2023",
+                "comentario": "Quedó bien"
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "nombre": "Prótesis de mano",
+        "descripcion": "Prótesis de mano Phoenix sin extremidades",
+        "imagenes": ["img/imgBiblioteca/img2.webp"],
+        "caracteristicas": [
+            "Densidad de relleno: 20%",
+            "Temperatura de material: Según lo indique el PLA",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s",
+            "Tipo de adherencia a la placa: Borde"
+        ], 
+        "comentarios": []
+        
+    },
+    {
+        "id" : 4,
+        "nombre": "Prótesis mecánica de dedo",
+        "descripcion": "Prótesis de dedo, a imprimir con material resistente, dimensiones a adaptar para encajar.",
+        "imagenes": ["img/imgBiblioteca/img3.webp"],
+        "caracteristicas": [
+            "Densidad de relleno: 20%",
+            "Temperatura de material: Según lo indique el PLA",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s",
+            "Tipo de adherencia a la placa: Borde"
+        ], 
+        "comentarios": []
+        
+    },
+    {
+        "id" : 5,
+        "nombre": "Prótesis de dedo",
+        "descripcion": "Descripción del Producto.",
+        "imagenes": ["img/imgBiblioteca/img4.webp"] ,
+        "caracteristicas": [
+            "Densidad de relleno: 20%",
+            "Temperatura de material: Según lo indique el PLA",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s",
+            "Tipo de adherencia a la placa: Borde"
+        ], 
+        "comentarios": []
+        
+    },
+    {
+        "id" : 6,
+        "nombre": "Gatos fantasma de Halloween",
+        "descripcion": "3 gatos fantasma de Halloween en diferentes poses.",
+        "imagenes": [
+            "img/imgBiblioteca/img1.webp" ,
+            "img/imgBiblioteca/img6.jpg"
+        ],
+        "caracteristicas": [
+            "Densidad de relleno: 20%",
+            "Temperatura de material: Según lo indique el PLA",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s",
+            "Tipo de adherencia a la placa: Borde"
+        ], 
+        "comentarios": []
+        
+    }
+]

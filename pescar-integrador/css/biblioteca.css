@@ -1,0 +1,361 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+  /****************/
+   /* Estilos para el fondo y la barra de navegación */
+*{
+    /* background-color: #f8f9fa; */
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none !important;  
+    list-style: none;
+
+}
+body{
+    background-color: #1C448E;
+}
+nav{
+    top: 0;
+    background-color: #202020; /* Color de fondo de la barra de navegación */
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    text-decoration: none !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+/* Estilos para la imagen del logo */
+.navbar img {
+    max-height: 70px;
+    width: auto;
+}
+
+/*Estilos para los botones de navegación */
+ul{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between; 
+} 
+.nav-a, .nav--button{
+    color: white;
+    padding: 10px 15px;
+    transition: 1s; 
+}
+.nav--button:hover{
+color: #000000;
+}
+.nav-a::after {
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+    transform-origin: center;
+    text-decoration: none !important;  
+  }
+  
+.nav-a::before {
+    transform-origin: center;
+    position: absolute; 
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+    text-decoration: none !important;  
+  }
+  
+  .nav-a:hover::before, .nav-a:hover::after {
+    transform: scale(0)
+  }
+  
+  .nav-a:hover {
+    box-shadow: inset 0px 0px 25px #14d8ea;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  }
+/* .contenedor-principal{
+    margin-top: 100px !important;
+   
+} */
+
+.list-unstyled{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+}
+.nav-dropdown, .nav-link{
+    display: none;
+}
+
+/* Estilos para móviles */
+@media (max-width: 900px) {
+    .filtrar{
+        margin-bottom: 30px;
+    }
+    .nav--button{
+        display: none;
+    }
+    .nav-dropdown{
+        display: flex;
+    }
+    i{
+        display: flex;
+    }
+    a {
+        text-decoration: none !important;  
+      }
+    a:hover{
+    color: #000000;
+    }
+    .nav-link{
+        margin: 1%;
+        color: rgb(0, 0, 0);
+        padding: 10px 15px;
+        transition: 1s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}      /* .nav-link::after {
+        position: absolute;
+        top: -10px;
+        left: 3%;
+        width: 95%;
+        height: 40%;
+        background-color: #212121;
+        transition: 0.5s;
+        transform-origin: center;
+        text-decoration: none !important;  
+      }
+      .nav-link::before {
+        transform-origin: center;
+        position: absolute;
+        top: 80%;
+        left: 3%;
+        width: 95%;
+        height: 40%;
+        background-color: #212121;
+        transition: 0.5s;
+        text-decoration: none !important;  
+      } */
+      .nav-link:hover {
+        box-shadow: inset 0px 0px 25px #14d8ea;
+        text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+        padding: 10px;
+    }
+      .menu-icon{
+        cursor: pointer;
+    }
+    i{
+        font-size: 2rem;
+        color: white;
+    }
+    .nav-dropdown {
+        margin-left: 0;
+        z-index: 2;
+        width: 50%;
+        height: 100%;
+        flex-direction: column;
+        background-color: rgb(0, 0, 0);
+        transition: opacity 0.3s; 
+        border: 0;
+        font-size: 2rem;
+        cursor: pointer;
+        position: absolute;
+        top: 84px;
+        right: 0;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .nav-dropdown ,.nav-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 20px 15px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+}
+
+/* Estilos para las tarjetas */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: transform 0.3s;
+    height: 100%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el botón "Comprar" */
+.btn-comprar {
+    background-color: #28a745;
+    /* Color de fondo del botón "Comprar" */
+    border: none;
+}
+
+.btn-comprar:hover {
+    background-color: #218838;
+}
+
+/* Establecer un tamaño fijo para las imágenes de las tarjetas */
+.card img {
+    height: 200px;
+    /* Establecer la altura deseada para las imágenes */
+    object-fit: cover;
+    /* Cubrir el área del contenedor manteniendo las proporciones */
+}
+
+
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #276091;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 15px 0px;
+    margin-top: 3rem;
+}
+.pie-pagina .grupo-1 figure{
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1{
+    color: #efefef;
+    /* margin-bottom: 10px; */
+}
+#red-social{
+    float:inline-start;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+    margin: 5px;
+    color: aqua;
+}
+#red-social:hover{
+    box-shadow: inset 0px 0px 25px #14d8ea;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  }
+.pie-pagina .grupo-2{
+    text-align: center;
+    color: #fff;
+}
+.grupo-2{
+    margin: 0 auto;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/boton descargar
+.button {
+    --font-color: #dedede;
+    --bg-color-sub: #222;
+    --bg-color: #323232;
+    --main-color: #dedede;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .button, .button__icon, .button__text {
+    transition: all 0.3s;
+  }
+  
+  .button .button__text {
+    transform: translateX(21px);
+    color: var(--font-color);
+    font-weight: 600;
+  }
+  
+  .button .button__icon {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 39px;
+    background-color: var(--bg-color-sub);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button .svg {
+    width: 20px;
+    fill: var(--main-color);
+  }
+  
+  .button:hover {
+    background: var(--bg-color);
+  }
+  
+  .button:hover .button__text {
+    color: transparent;
+  }
+  
+  .button:hover .button__icon {
+    width: 148px;
+    transform: translateX(0);
+  }
+  
+  .button:active {
+    transform: translate(3px, 3px);
+    box-shadow: 0px 0px var(--main-color);
+  }
